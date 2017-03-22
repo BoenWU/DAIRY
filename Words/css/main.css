@@ -1,0 +1,63 @@
+#canvas{
+	display: block;
+	margin: 0 auto;
+}
+#controller{
+	width: 100%; 
+	max-width: 500px;
+	margin: 0 auto;
+}
+.opBtn{
+	float: right;	
+	margin: 10px 0 0 10px;
+	border:2px solid #aaa;
+	width: 50px;
+	height: 25px;	
+	line-height: 25px;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px 5px;
+	cursor: pointer;
+	background: #fff;
+	font-weight: bold;
+	font-family: Microsoft Yahei,Arial;	
+}
+.opBtn:hover{
+	background: #def;
+}
+.clearfix{
+	clear: both;
+}
+.colorBtn{
+	float: left;
+	margin: 10px 10px 0 0;
+	border:5px solid #fff;
+	width: 25px;	
+	height: 25px;	
+	border-radius: 5px 5px;
+	cursor: pointer;
+}
+.colorBtn:hover{
+	border:5px solid violet;
+}
+.selected{
+	border:5px solid blueviolet;
+}
+#blackBtn{
+	background-color: black;
+}
+#blueBtn{
+	background-color: blue;
+}
+#greenBtn{
+	background-color: green;
+}
+#orangeBtn{
+	background-color: orange;
+}
+#redBtn{
+	background-color: red;
+}
+#yellowBtn{
+	background-color: yellow;
+}

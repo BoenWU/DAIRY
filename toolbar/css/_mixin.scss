@@ -1,0 +1,21 @@
+@mixin transition($transition){
+	-webkit-transition: $transition;
+	-o-transition: $transition;
+	-ms-transition: $transition;
+	-moz-transition: $transition;
+	transition: $transition;
+}
+@mixin transform-origin($origin){
+	-webkit-transform-origin: $origin;
+	-o-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	-moz-transform-origin: $origin;
+	transform-origin: $origin;
+}
+@mixin transform($transform){
+	-webkit-transform: $transform;
+	-o-transform: $transform;
+	-ms-transform: $transform;
+	-moz-transform: $transform;
+	transform: $transform;
+}
